@@ -2,9 +2,10 @@ public class Main {
 
     public static void main(String[] arg) {
         Scanner sc = new Scanner(System.in)
-        string s1 = nextLine(); 
-        String str = "how:to:split:a:string:in:java";
-        String[] arrOfStr = str.split(":");
+        string s1 = next(); 
+         s1+=sc.nextLine();
+        //String str = "how:to:split:a:string:in:java";
+        String[] arrOfStr = s1.split(":");
         for (String a : arrOfStr) {
             System.out.println(a);
         }
