@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] arg) {
         Scanner sc = new Scanner(System.in)
-        
+        string s1 = nextLine(); 
         String str = "how:to:split:a:string:in:java";
         String[] arrOfStr = str.split(":");
         for (String a : arrOfStr) {
